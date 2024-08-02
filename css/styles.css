@@ -1,0 +1,88 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.heebo-<uniquifier> {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+ .header{
+  background-color: #ffffff;
+ }
+  
+ .hero-information {
+  background-color: #ffffff;
+ }
+
+.header-list {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+    color: #000;
+}
+
+
+.hero-btn {
+    border-radius: 2px;
+    width: 208px;
+    height: 47px;
+    background-color: #ff6464;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.recent-section {
+  background-color: #edf7fa;
+  width: 1152px;
+  height: 396px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.recent-section-first {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width:418px;
+  height:295px; 
+  margin-right: 8px;
+}
+
+
+.recent-section-second {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 418px;
+    height: 295px;
+}
+
+.footer-icons-list{
+   display: flex;
+   align-items: center;
+
+}
+
+.footer-paragraph {
+    display: flex;
+    align-items: center;
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #21243d;
+   
