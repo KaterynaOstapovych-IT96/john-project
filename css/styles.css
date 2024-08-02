@@ -29,6 +29,7 @@
     font-size: 20px;
     text-align: right;
     color: #000;
+    list-style: none;
 }
 
 
@@ -91,7 +92,7 @@
    align-items: center;
    margin: 0 auto;
    gap: 20px;
-
+    list-style: none;
 }
 
 .footer-paragraph {
