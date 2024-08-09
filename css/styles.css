@@ -17,7 +17,10 @@
  }
   
  .hero-information {
+  display: flex;
+  align-items: flex-start;
   background-color: #ffffff;
+  margin-bottom: 71px;
  }
 
 .header-list {
@@ -90,13 +93,25 @@
 
  }
 
- .card-paragraph::after{
-  stroke-width: 1px;
-  stroke: #e0e0e0;
-  width: 858px;
-  height: 0;
+ .card-item {
+   position: relative;
+   padding-bottom: 35px;
  }
 
+ .card-item:before {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 1px;
+   background-color: #e0e0e0;
+ }
+
+ .card-item:not(:last-child) {
+   margin-bottom: 35px;
+ }
+ 
 .footer-section {
   display: flex;
   align-items: center;
